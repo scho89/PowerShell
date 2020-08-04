@@ -2,8 +2,8 @@
 <#
 #Sample
 No,Type,PrimarySmtpAddress,DisplayName,RequireSenderAuthenticationEnabled,Language,Owner,Members
-1,UnifiedGroup,mgt5@contoso.kr,UNIQUEST - Planning,1,ko-KR,mis@fabrikam.kr,"harry@contoso.kr, yuri@contoso.kr, arnoldc@contoso.kr, jonathan@contoso.kr, bernard@contoso.kr, jeremyk@contoso.kr, rainakim@contoso.kr, kevin@contoso.kr, simonum@contoso.kr, lily@contoso.kr, olivia@contoso.kr, bella@contoso.kr, jadeseo@contoso.kr"
-2,UnifiedGroup,acct@contoso.kr,UNIQUEST - Accounting,0,ko-KR,mis@fabrikam.kr,"jadeseo@contoso.kr, arnoldc@contoso.kr, bernard@contoso.kr, bella@contoso.kr, jeremyk@contoso.kr"
+1,UnifiedGroup,mgt5@contoso.kr,Planning,1,ko-KR,mis@fabrikam.kr,"harry@contoso.kr, yuri@contoso.kr, arnoldc@contoso.kr, jonathan@contoso.kr, bernard@contoso.kr, jeremyk@contoso.kr, rainakim@contoso.kr, kevin@contoso.kr, simonum@contoso.kr, lily@contoso.kr, olivia@contoso.kr, bella@contoso.kr, jadeseo@contoso.kr"
+2,UnifiedGroup,acct@contoso.kr,Accounting,0,ko-KR,mis@fabrikam.kr,"jadeseo@contoso.kr, arnoldc@contoso.kr, bernard@contoso.kr, bella@contoso.kr, jeremyk@contoso.kr"
 
 #>
 
