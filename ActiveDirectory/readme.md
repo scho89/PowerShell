@@ -1,5 +1,5 @@
-# contoso_ou.ps1      
-![contoso_ou.ps1](https://github.com/scho89/PowerShell/blob/master/ActiveDirectory/contoso_OU.ps1) creates OU from department list.   
+# [contoso_ou.ps1](https://github.com/chosangho89/Update-Office365/raw/master/Update-Office365.ps1)  
+Creating OU from department list.   
 Use "code" column as an unique key for entry.   
 
 Source:   
