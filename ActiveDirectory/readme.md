@@ -1,4 +1,7 @@
-# [contoso_ou.ps1](https://github.com/chosangho89/Update-Office365/raw/master/Update-Office365.ps1)  
+# [UserPasswordReset.ps1](https://github.com/scho89/PowerShell/blob/master/ActiveDirectory/UserPasswordReset.ps1)  
+Reset and expire user password in specific OU.
+
+# [contoso_ou.ps1](https://github.com/scho89/PowerShell/blob/master/ActiveDirectory/contoso_OU.ps1)  
 Creating OU from department list.   
 Use "code" column as an unique key for entry.   
 
@@ -7,4 +10,7 @@ Source:
 
 Result:   
 ![contoso_ou_result](./resources/contoso_ou_result.png)
+   
+
+
 
