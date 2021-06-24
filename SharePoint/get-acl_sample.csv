@@ -1,0 +1,73 @@
+SiteCollection,Url,Title,ListName,Principal,Permission,MemberName,MemberLogin,UserPrincipalName,email
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main,Hoin Portal,N/A,Excel Services Viewers,View Only,,,,
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main,Hoin Portal,N/A,Hoin Portal Owners,Full Control,Administrator,hoin\administrator,Administrator@hoin.shop,Administrator@hoin.shop
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main,Hoin Portal,N/A,Hoin Portal Visitors,Read,,,,
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main,Hoin Portal,N/A,Hoin Portal Members,Edit,,,,
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main,Hoin Portal,N/A,"Heming, Sean",Limited Access,,,heming@hoin.shop,heming@hoin.shop
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main,Hoin Portal,Documents,Excel Services Viewers,View Only,,,,
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main,Hoin Portal,Documents,Hoin Portal Owners,Full Control,Administrator,hoin\administrator,Administrator@hoin.shop,Administrator@hoin.shop
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main,Hoin Portal,Documents,Hoin Portal Visitors,Read,,,,
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main,Hoin Portal,Documents,Hoin Portal Members,Edit,,,,
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main,Hoin Portal,Documents,"Heming, Sean",View Only,,,heming@hoin.shop,heming@hoin.shop
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main,Hoin Portal,TaxonomyHiddenList,Everyone,Read,,,,N/A
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main/Ateam,ATeam,N/A,ATeam Owners,Full Control,Administrator|dev,hoin\administrator|hoin\dev,Administrator@hoin.shop|dev@hoin.shop,Administrator@hoin.shop|dev@hoin.shop
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main/Ateam,ATeam,N/A,ATeam Members,Edit,"Administrator|Heming, Sean",hoin\administrator|hoin\heming,Administrator@hoin.shop|heming@hoin.shop,Administrator@hoin.shop|heming@hoin.shop
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main/Ateam,ATeam,N/A,ATeam Visitors,Read,,,,
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main/Ateam,ATeam,N/A,AteamCollab,Read,Administrator|Jason,hoin\administrator|hoin\jason,Administrator@hoin.shop|Jason@hoin.shop,Administrator@hoin.shop|jason@hoin.shop
+https://sp.hoin.shop/sites/main,https://sp.hoin.shop/sites/main/Ateam,ATeam,N/A,Tunny,Edit,,,in@hoin.shop,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,N/A,Excel Services Viewers,View Only,,,,
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,N/A,Customers Owners,Full Control,Administrator,hoin\administrator,Administrator@hoin.shop,Administrator@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,N/A,Customers Visitors,Read,o367,hoin\o367,o367@hoin.shop,o367@hoout.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,N/A,Customers Members,Edit,On-prem2,hoin\on2,on2@hoin.shop,on2@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,N/A,Tunny,Design,,,in@hoin.shop,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,N/A,dev,Limited Access,,,dev@hoin.shop,dev@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,N/A,Jason,Limited Access,,,Jason@hoin.shop,jason@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,Documents,Excel Services Viewers,View Only,,,,
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,Documents,Customers Owners,Full Control,Administrator,hoin\administrator,Administrator@hoin.shop,Administrator@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,Documents,Customers Visitors,Read,o367,hoin\o367,o367@hoin.shop,o367@hoout.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,Documents,Customers Members,Edit,On-prem2,hoin\on2,on2@hoin.shop,on2@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,Documents,Tunny,Design,,,in@hoin.shop,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,Documents,dev,Read,,,dev@hoin.shop,dev@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,TaxonomyHiddenList,Everyone,Read,,,,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,ToDo,Excel Services Viewers,View Only,,,,
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,ToDo,Customers Owners,Full Control,Administrator,hoin\administrator,Administrator@hoin.shop,Administrator@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,ToDo,Customers Visitors,Read,o367,hoin\o367,o367@hoin.shop,o367@hoout.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,ToDo,Customers Members,Edit,On-prem2,hoin\on2,on2@hoin.shop,on2@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,ToDo,Tunny,Design,,,in@hoin.shop,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,ToDo,dev,Limited Access,,,dev@hoin.shop,dev@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers,Customers,ToDo,Jason,Edit,,,Jason@hoin.shop,jason@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,N/A,Excel Services Viewers,View Only,,,,
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,N/A,Customers Owners,Full Control,Administrator,hoin\administrator,Administrator@hoin.shop,Administrator@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,N/A,Customers Visitors,Read,o367,hoin\o367,o367@hoin.shop,o367@hoout.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,N/A,Customers Members,Edit,On-prem2,hoin\on2,on2@hoin.shop,on2@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,N/A,Tunny,Design|Limited Access,,,in@hoin.shop,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,N/A,dev,Limited Access,,,dev@hoin.shop,dev@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,N/A,Jason,Limited Access,,,Jason@hoin.shop,jason@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,N/A,KoreaAM Owners,Full Control,Administrator|hh,hoin\administrator|hoin\hh,Administrator@hoin.shop|hh@hoin.shop,Administrator@hoin.shop|N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,N/A,KoreaAM Members,Edit,Administrator,hoin\administrator,Administrator@hoin.shop,Administrator@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,N/A,KoreaAM Visitors,Read,,,,
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,N/A,aaasd,Limited Access,,,aaasd@hoin.shop,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,N/A,Carol,Limited Access,,,carol@hoin.shop,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,LeaveForm,Excel Services Viewers,View Only,,,,
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,LeaveForm,Tunny,Contribute|Read|View Only,,,in@hoin.shop,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,LeaveForm,dev,Limited Access,,,dev@hoin.shop,dev@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,LeaveForm,Jason,Limited Access,,,Jason@hoin.shop,jason@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,LeaveForm,KoreaAM Owners,Full Control,Administrator|hh,hoin\administrator|hoin\hh,Administrator@hoin.shop|hh@hoin.shop,Administrator@hoin.shop|N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,LeaveForm,KoreaAM Members,Edit,Administrator,hoin\administrator,Administrator@hoin.shop,Administrator@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,LeaveForm,KoreaAM Visitors,Read,,,,
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,LeaveForm,aaasd,Edit,,,aaasd@hoin.shop,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/KoreaAM,KoreaAM,LeaveForm,Carol,Contribute|Edit|Read,,,carol@hoin.shop,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,N/A,Carol,Limited Access,,,carol@hoin.shop,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,N/A,SEC Owners,Full Control|Limited Access,Administrator,hoin\administrator,Administrator@hoin.shop,Administrator@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,N/A,SEC Members,Edit|Limited Access,Administrator|Ho|o365,hoin\administrator|hoin\ho|hoin\o365,Administrator@hoin.shop|ho@hoin.shop|o365@hoin.shop,Administrator@hoin.shop|N/A|o365@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,N/A,SEC Visitors,Limited Access|Read,,,,
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,N/A,onp,Limited Access,,,onp@hoin.shop,on@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,Documents,Carol,Full Control,,,carol@hoin.shop,N/A
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,Documents,SEC Owners,Full Control|Limited Access,Administrator,hoin\administrator,Administrator@hoin.shop,Administrator@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,Documents,SEC Members,Contribute|Design|Edit|Limited Access,Administrator|Ho|o365,hoin\administrator|hoin\ho|hoin\o365,Administrator@hoin.shop|ho@hoin.shop|o365@hoin.shop,Administrator@hoin.shop|N/A|o365@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,Documents,SEC Visitors,Limited Access|Read,,,,
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,Documents,onp,Limited Access,,,onp@hoin.shop,on@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,ProductList,SEC Owners,Contribute|Edit|Read,Administrator,hoin\administrator,Administrator@hoin.shop,Administrator@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,ProductList,SEC Members,Contribute|Design|Edit|Read,Administrator|Ho|o365,hoin\administrator|hoin\ho|hoin\o365,Administrator@hoin.shop|ho@hoin.shop|o365@hoin.shop,Administrator@hoin.shop|N/A|o365@hoin.shop
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,ProductList,SEC Visitors,Read,,,,
+https://sp.hoin.shop/sites/customers,https://sp.hoin.shop/sites/customers/SEC,SEC,ProductList,onp,Contribute|Design|Read,,,onp@hoin.shop,on@hoin.shop
