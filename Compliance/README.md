@@ -1,4 +1,4 @@
-# Export-Auditlogs.ps1  
+# [Export-Auditlogs.ps1](https://github.com/scho89/PowerShell/blob/master/Compliance/Export-Auditlogs.ps1)  
 Microsoft 365 감사로그 다운로드 스크립트.  
 5,000개 임계값을 초과하는 경우, 재귀함수를 호출하여 쿼리 범위를 나눠 다시 조회함.  
 
