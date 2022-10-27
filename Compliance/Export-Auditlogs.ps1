@@ -1,7 +1,7 @@
 
 <#PSScriptInfo
 
-.VERSION 1.0
+.VERSION 1.1.2
 
 .GUID f659f288-ab9e-4d68-a25f-9c087058de8b
 
@@ -80,7 +80,7 @@ Function Get-AuditLogs{
     $auditLogs = Search-UnifiedAuditLog -StartDate $StartDate -EndDate $EndDate -ResultSize 5000 -Operation $operation
 
     $depth ++
-
+    $exportPath = "$Path/$operation.csv" -replace "\\","/"
     if($progress){
         Write-Host $StartDate.ToString("yyyy-MM-dd HH:mm:ss"),"/",$EndDate.ToString("yyyy-MM-dd HH:mm:ss"),(" {0,4}" -f $auditLogs.Length) -NoNewline
         Write-Host (" {0,2}" -F $depth) -ForegroundColor Green -NoNewline
@@ -92,13 +92,13 @@ Function Get-AuditLogs{
         if($auditLogs.Length){
             
             if($rawdata){
-                $auditLogs | Export-Csv -Encoding Utf8 -NTI -Append -Path "$Path/$operation.csv" -Force
+                $auditLogs | Export-Csv -Encoding Utf8 -NTI -Append -Path $exportPath -Force
 
             }
 
             else{
                 $auditData = $auditLogs.auditdata | ConvertFrom-Json
-                $auditData | Export-Csv -Encoding Utf8 -NTI -Append -Path "$Path/$operation.csv" -Force
+                $auditData | Export-Csv -Encoding Utf8 -NTI -Append -Path $exportPath -Force
             }
             $depth --
             $bin = 0
