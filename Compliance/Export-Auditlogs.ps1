@@ -1,7 +1,7 @@
 
 <#PSScriptInfo
 
-.VERSION 1.1.2
+.VERSION 1.1.4
 
 .GUID f659f288-ab9e-4d68-a25f-9c087058de8b
 
@@ -80,7 +80,7 @@ Function Get-AuditLogs{
     $auditLogs = Search-UnifiedAuditLog -StartDate $StartDate -EndDate $EndDate -ResultSize 5000 -Operation $operation
 
     $depth ++
-    $exportPath = "$Path/$operation.csv" -replace "\\","/"
+    $exportPath = "$Path/$operation.csv" -replace "\\","/" -replace "//","/"
     if($progress){
         Write-Host $StartDate.ToString("yyyy-MM-dd HH:mm:ss"),"/",$EndDate.ToString("yyyy-MM-dd HH:mm:ss"),(" {0,4}" -f $auditLogs.Length) -NoNewline
         Write-Host (" {0,2}" -F $depth) -ForegroundColor Green -NoNewline
@@ -143,6 +143,9 @@ catch {
     Exit
 }
 
+if(!(Test-Path $Path)){
+    New-Item -Type Directory -Name $path
+}
 
 $operations | %{
     Get-AuditLogs -StartDate $StartDate -EndDate $EndDate -operation $_
@@ -151,7 +154,7 @@ Disconnect-ExchangeOnline -Confirm:$false
 
 $operations | % {
     
-    $fullname = "$Path/$_.csv" -replace "\\","/"
+    $fullname = "$Path/$_.csv" -replace "\\","/" -replace "//","/"
     $data = Import-Csv $fullname -Encoding Utf8
 
     if($rawdata){
