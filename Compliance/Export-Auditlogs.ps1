@@ -33,7 +33,7 @@
 <# 
 
 .DESCRIPTION 
- Export audit logs on Microsoft 365 as CSV. If result exceeds 5,000 limitation, it queries again reculsively, split query date by parameter bins number. 
+ Export audit logs on Microsoft 365 as CSV. If result exceeds 5,000 limitation, it queries again recursivly , split query date by parameter bins number. 
 
 .EXAMPLE
    Export-Auditlogs -StartDate "2022-10-10 08:00" -EndDate "2022-10-20 08:00" -Operations FileDownloaded,FileAccessesd
@@ -48,11 +48,11 @@
 .PARAMETER rawdata (optional)
     Export audit log data as raw form, same form with result of Search-UnifiedAuditLog 
 .PARAMETER porgress (optional)
-    Show query progress (starttime, endtime, depth of reculsive query, bin number)
+    Show query progress (starttime, endtime, depth of recursive query, bin number)
 .PARAMETER bins (optional)
     When Search-UnifiedAuditLog result exceeds 5,000 it used as divitor for query date. default value is 2 
 .PARAMETER delay (optional)
-    to prevent hits throttling limit in Exchange Online PowerShell, make delay between reculsive call, in seconds 
+    to prevent hits throttling limit in Exchange Online PowerShell, make delay between recursive call, in seconds 
 
 #> 
 
