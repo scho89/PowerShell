@@ -151,7 +151,7 @@ Disconnect-ExchangeOnline -Confirm:$false
 
 $operations | % {
     
-    $fullname = "$Path/$_.csv"
+    $fullname = "$Path/$_.csv" -replace "\\","/"
     $data = Import-Csv $fullname -Encoding Utf8
 
     if($rawdata){
