@@ -13,18 +13,14 @@
 
 .TAGS Microsoft365,AuditLog
  
-.LICENSEURI
- 
-.PROJECTURI 
+.LICENSEURI https://github.com/scho89/PowerShell/tree/master/Compliance
 
-.ICONURI
+.PROJECTURI https://github.com/scho89/PowerShell/tree/master/Compliance
  
-.EXTERNALMODULEDEPENDENCIES
+.EXTERNALMODULEDEPENDENCIES ExchangeOnlineManagement
  
-.REQUIREDSCRIPTS
+.REQUIREDSCRIPTS 
 
-Has dependancy with ExchangeOnlineManagement module.
- 
 .EXTERNALSCRIPTDEPENDENCIES
  
 .RELEASENOTES
@@ -44,7 +40,7 @@ Has dependancy with ExchangeOnlineManagement module.
    Export-Auditlogs -StartDate "2022-10-10 08:00" -EndDate "2022-10-20 08:00" -Operations FileDownloaded,FileAccessesd
 .PARAMETER StartDate
    Query start datetime, as local time "yyyy-MM-dd hh:mm:ss"
-.PARAMETER destDir
+.PARAMETER EndDate
    Query end datetime, as local time "yyyy-MM-dd hh:mm:ss"
 .PARAMETER operations
     specify operation for audit log, comma seperated for multiple operations
