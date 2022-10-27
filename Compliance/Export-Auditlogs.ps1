@@ -11,11 +11,11 @@
  
 .COPYRIGHT
 
-.TAGS Microsoft365,AuditLog
- 
-.LICENSEURI https://github.com/scho89/PowerShell/tree/master/Compliance
+.TAGS 
+Microsoft365,AuditLog
 
-.PROJECTURI https://github.com/scho89/PowerShell/tree/master/Compliance
+.PROJECTURI 
+https://github.com/scho89/PowerShell/tree/master/Compliance
  
 .EXTERNALMODULEDEPENDENCIES ExchangeOnlineManagement
  
