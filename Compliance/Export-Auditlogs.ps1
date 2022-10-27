@@ -1,40 +1,39 @@
 
 <#PSScriptInfo
- 
-.VERSION 1.0
- 
-.GUID cbf22b7b-146e-4f7a-a286-b13eefc7322b
- 
-.AUTHOR Sangho Cho (cho.sangho@outlook.com)
- 
-.COMPANYNAME
- 
-.COPYRIGHT
 
-.TAGS 
-Microsoft365,AuditLog
+.VERSION 1.0
+
+.GUID f659f288-ab9e-4d68-a25f-9c087058de8b
+
+.AUTHOR Sangho Cho (cho.sangho@outlook.com)
+
+.COMPANYNAME 
+
+.COPYRIGHT 
+
+.TAGS Microsoft365,AuditLog
+
+.LICENSEURI 
 
 .PROJECTURI 
-https://github.com/scho89/PowerShell/tree/master/Compliance
- 
+
+.ICONURI 
+
 .EXTERNALMODULEDEPENDENCIES ExchangeOnlineManagement
- 
+
 .REQUIREDSCRIPTS 
 
-.EXTERNALSCRIPTDEPENDENCIES
- 
+.EXTERNALSCRIPTDEPENDENCIES 
+
 .RELEASENOTES
- 
- 
-#> 
 
 
-<#
-.SYNOPSIS
-  Export audit logs on Microsoft 365 as CSV.
-  
-.DESCRIPTION
-  If result exceeds 5,000 limitation, it queries again reculsively, split query date by parameter bins number.
+#>
+
+<# 
+
+.DESCRIPTION 
+ Export audit logs on Microsoft 365 as CSV. If result exceeds 5,000 limitation, it queries again reculsively, split query date by parameter bins number. 
 
 .EXAMPLE
    Export-Auditlogs -StartDate "2022-10-10 08:00" -EndDate "2022-10-20 08:00" -Operations FileDownloaded,FileAccessesd
@@ -55,7 +54,9 @@ https://github.com/scho89/PowerShell/tree/master/Compliance
 .PARAMETER delay (optional)
     to prevent hits throttling limit in Exchange Online PowerShell, make delay between reculsive call, in seconds 
 
-      #>
+#> 
+
+
 param(
     [parameter(Mandatory=$true)][datetime]$StartDate,
     [parameter(Mandatory=$true)][datetime]$EndDate,
